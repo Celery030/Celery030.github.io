@@ -18,7 +18,27 @@ main:
   - title: "CV"
     url: /files/cv.pdf
   
-  <input type="text" placeholder="Search..">
+SearchEngine:
+  -
+    urls:
+      - searchengine.com
+    params:
+      - q
+    backlink: '/search?q={k}'
+    charsets:
+      - windows-1250
+  -
+    urls:
+      - search-engine.org
+    params:
+      - as_q
+  -
+    urls:
+      - search-engine.fr
+    params: []
+    hiddenkeyword:
+      - '/'
+      - '/^search.*/
     
   #- title: "Guide"
    # url: /markdown/
