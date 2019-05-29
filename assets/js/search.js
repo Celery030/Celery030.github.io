@@ -43,15 +43,18 @@
       this.field('author');
       this.field('category');
       this.field('content');
+      this.field('url');
     });
 
     for (var key in window.store) { // Add the data to lunr
-      idx.add({
+      this.add({
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
         'content': window.store[key].content
+        'description': window.store[key].description,
+        'url: window.store[key].url
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
