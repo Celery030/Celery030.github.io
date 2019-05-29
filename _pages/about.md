@@ -19,3 +19,18 @@ Xue-Qin Huang, Yue-Xing Chen, Mei-Jie Yin, Dan Feng, Jia-Qing He, origin of the 
 
 Yue-Xing Chen, Zhen-Hua Ge, Mei-Jie Yin, Dan Feng, Xue-Qin Huang, Wen-Yu Zhao, Jia-Qing He, Understanding of the Extremely Low Thermal Conductivity in High Performance Polycrystalline SnSe through Potassium Doping. Adv. Funct. Mater. 2016, 26, 6836-6845. 
 [Download paper here](https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201602652) 
+
+Education
+---------
+
+2010-2014 (expected)
+:   **PhD, Computer Science**; Awesome University (MyTown)
+
+    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+     Estimation Problem*
+
+2007-2010
+:   **BSc, Computer Science and Electrical Engineering**; University of
+    HomeTown (HomeTown)
+
+    *Minor: Awesomeology*
