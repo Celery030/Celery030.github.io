@@ -26,7 +26,7 @@ Research Experience
 September 2017-Present 
 :    **PhD, MSEN.**, TAMU
 
-     Mentor: Dr. Raymundo Arroyave<br/>
+      Mentor: Dr. Raymundo Arroyave<br/>
      *Project title: Phase-field simulation of solidification morphology in laser powder deposition of Ni-based Binary Alloys*
      * Microstructure simulation on Ni-based additive manufacturing materials
      * Coupling the dissipation Phase-Field model with the Lattice Boltzmann model
@@ -34,6 +34,6 @@ September 2017-Present
 Sept.2015-June 2017
 :   **Undergraduate Research Assistant, PHY.**, SUStech
 
-     Mentor: Dr. Jiaqing He<br/> 
+     Mentor: Dr. Jiaqing He<br/>
     *Project title: Enhancement of thermoelectric properties on polycrystalline SnSe by composite with two-dimensional material MoSe<font size="-1">2</font>*
 
