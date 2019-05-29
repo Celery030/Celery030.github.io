@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 About Me
-======
+--------------------------
 I am Ziyu Jiang, a PhD. Student at TAMU. My current research focuses on Semantic Segmentation, Multi-modality Fusion, Efficient Training and Neural Architecture Search.
 
 Publication
-======
+--------------------------
 <b>Ziyu Jiang* </b>, Wuyang Chen*, Zhangyang Wang, Kexin Cui, Xiaoning Qian. Collaborative
 Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images.
 Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
@@ -24,11 +24,13 @@ Solution to Classify Arctic Wetlands. 2019 IEEE/CVF Conference on Computer Visio
 Pattern Recognition Workshops (CVPRW). IEEE, 2019.
 
 Professional Experience
-======
-Research Intern NEC Research, San Jose, CA, June - , 2019
+--------------
 
-Research on indoor scene understanding. 
+June - , 2019
+:  **Research Intern NEC Research**, San Jose, CA,
 
-Mentors:  Buyu, Liu
+  *Research on indoor scene understanding*. 
 
-* Explore better algorithms for semantic segmenation of indoor scene.
+  Mentors:  Buyu, Liu
+
+  * Explore better algorithms for semantic segmenation of indoor scene.
