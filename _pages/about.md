@@ -38,5 +38,5 @@ Sept.2015-June 2017
 
      Mentor: Dr. Jiaqing He
      
-    *Project title: Enhancement of thermoelectric properties on polycrystalline SnSe by composite with two-dimensional material MoSe<\font size="-1">2<\font>*
+    *Project title: Enhancement of thermoelectric properties on polycrystalline SnSe by composite with two-dimensional material MoSe<font size="-1">2</font>*
 
