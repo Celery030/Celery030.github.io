@@ -53,7 +53,7 @@
         'author': window.store[key].author,
         'category': window.store[key].category,
         'content': window.store[key].content,
-        'body': window.store[key].body,
+        'body': window.store[key].body
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
