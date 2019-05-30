@@ -1,4 +1,6 @@
 <script src="/js/lunr.js"></script>
+
+<script>
 var idx = lunr(function () {
   this.field('title')
   this.field('body')
@@ -10,12 +12,9 @@ var idx = lunr(function () {
     "id": "1"
   })
 })
-<script>
-
 function lunr_search(term) {
   document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
   if(term){
-  var result = idx.search("love")
   document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
 
 }
