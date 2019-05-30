@@ -1,8 +1,15 @@
 <script src="/js/lunr.js"></script>
 
 <script>
-var idx = lunr(function () {
-})
+  var idx = lunr(function () {
+    this.field('title')
+    this.field('body')
+    this.ref('id')
+ 
+    documents.forEach(function (doc) {
+      this.add(doc)
+   }, this)
+  })
 
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
