@@ -20,15 +20,6 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];    
    
     
-var idx = lunr(function () {
-    this.ref('id');
-    this.field('title');
-    this.field('body');
-
-    documents.forEach(function (doc) {
-        this.add(doc);
-    }, this)
-});
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
@@ -46,7 +37,7 @@ function lunr_search(term) {
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
 </form>
-jojo23
+jojo24
 <div id="lunrsearchresults">
     <ul></ul>
 </div>
