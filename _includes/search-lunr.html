@@ -1,17 +1,7 @@
 <script src="/js/lunr.js"></script>
 
 <script>
-var idx = lunr(function () {
-  this.field('title')
-  this.field('body')
 
-  this.add({
-    "title": "Twelfth-Night",
-    "body": "If music be the food of love, play on: Give me excess of it…",
-    "author": "William Shakespeare",
-    "id": "1"
-  })
-})
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
   document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>3No results found...</li>";
