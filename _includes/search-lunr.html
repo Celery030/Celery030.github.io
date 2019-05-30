@@ -8,7 +8,7 @@ var result;
 function lunr_search(term) {
     var idx = lunr(function () {
   this.field('title');
-  this.field('body')
+  this.field('body');
 
   this.add({
     "title": "Twelfth-Night",
@@ -17,6 +17,7 @@ function lunr_search(term) {
     "id": "1"
   })
 });
+    var result = idx.search("love");
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
   document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
@@ -34,7 +35,7 @@ function lunr_search(term) {
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
 </form>
-jojo17
+jojo18
 <div id="lunrsearchresults">
     <ul></ul>
 </div>
