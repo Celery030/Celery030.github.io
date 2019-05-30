@@ -1,14 +1,17 @@
 <script src="/js/lunr.js"></script>
 
 <script>
-var result;
+    
 lunr(function () {
     this.field('id');
     this.field('title');
     this.field('content', { boost: 10 });
-  });
-  document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
-  if(term){
+  });    
+    
+var result;
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
   document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
 
 }
@@ -24,7 +27,7 @@ lunr(function () {
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
 </form>
-jojo12
+jojo13
 <div id="lunrsearchresults">
     <ul></ul>
 </div>
