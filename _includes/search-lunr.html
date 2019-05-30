@@ -19,16 +19,7 @@ function lunr_search(term) {
     if(term) {
         document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
         //put results on the screen.
-        var result=idx.search("love")
-        if(results.length>0){
-            //console.log(idx.search(term));
-            //if results
-            for (var i = 0; i < results.length; i++) {
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>1No results found...</li>";
-            }
-        } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>2No results found...</li>";
-        }
+        
     }
     return false;
 }
