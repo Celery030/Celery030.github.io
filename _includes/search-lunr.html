@@ -2,12 +2,10 @@
 
 <script>
 var result;
-window.idx = lunr(function () {
+lunr(function () {
     this.field('id');
     this.field('title');
     this.field('content', { boost: 10 });
-    this.field('author');
-    this.field('categories');
   });
   document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
   if(term){
@@ -26,7 +24,7 @@ window.idx = lunr(function () {
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
 </form>
-jojo11
+jojo12
 <div id="lunrsearchresults">
     <ul></ul>
 </div>
