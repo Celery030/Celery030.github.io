@@ -10,34 +10,32 @@ menu: main
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <div class = "container">
-  <section>
-    <br>
-    <img src="/images/Time.png" >
-  </section>
-  <aside>
-    Hello
-    <br>
-    <div class = "row">
-      <div class = "col-md-12">
-        <article class = "post page">
-          <header class = "post-header">
-            <div id = "breadcrumbs">
-              <a href="/">Home</a>/ Search
-            </div>
-            <h1 class="post-title">Search</h1>
-          </header>
-          <div class = "post-content">
-            <h2 id="simple-site-search">Simple Site Search</h2>
-            <div class = "row">
-              <div class = "col-md-12">
-                {% include search-lunr.html %}
-              </div>
+
+  Hello!
+  <div class = "row">
+    <div class = "col-md-2">
+        <br>
+        <img src="/images/Time.png" >
+    </div>
+    <div class = "col-md-10">
+      <article class = "post page">
+        <header class = "post-header">
+          <div id = "breadcrumbs">
+            <a href="/">Home</a>/ Search
+          </div>
+          <h1 class="post-title">Search</h1>
+        </header>
+        <div class = "post-content">
+          <h2 id="simple-site-search">Simple Site Search</h2>
+          <div class = "row">
+            <div class = "col-md-12">
+              {% include search-lunr.html %}
             </div>
           </div>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
-  </aside>
+  </div>
 </div>
         
           
