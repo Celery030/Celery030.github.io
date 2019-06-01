@@ -3,7 +3,6 @@ title: "Understanding of the Extremely Low Thermal Conductivity in High Performa
 collection: publications
 permalink: /publication/2016-08
 excerpt: ''
-read_more: enabled
 date: 2016-08-16
 venue: 'Adv. Funct. Mater.'
 ---
